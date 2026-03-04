@@ -1,4 +1,8 @@
 import {
+// meta,
+//   starbucks,
+//   tesla,
+//   shopify,
   mobile,
   backend,
   creator,
@@ -15,14 +19,16 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  cyb,
+  d6,
+  scsu,
   carrent,
   jobit,
   tripguide,
+  trackai,
   threejs,
+  resai,
+  presence,
 } from "../assets";
 
 export const navLinks = [
@@ -46,7 +52,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Game Designer",
     icon: mobile,
   },
   {
@@ -54,7 +60,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Data Analyst",
     icon: creator,
   },
 ];
@@ -80,10 +86,10 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -96,18 +102,18 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
   {
     name: "docker",
     icon: docker,
@@ -116,55 +122,51 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Technology/Coding Instructor",
+    company_name: "CyberTeck Academy",
+    icon: cyb, 
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "August 2025 - Current",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Delivering engaging instruction in Minecraft Programming, Game Design, Animation, and Lego Robotics for 8 to 12 student.",
+      "Maintaining an organized, and on-time learning environment while fostering creativity and interest in technology.",
+      "Set up laptops and classroom equipment to ensure smooth operation of technology-based lessons.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Software Developer",
+    company_name: "Density6",
+    icon: d6,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "March 2024 - Current",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Designing and implementing cloud-based and cybersecurity solutions, improving system scalability and resilience",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Prototyped next-gen AI and AR/VR applications, integrating machine learning and real-time data visualizations.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Visualization Laboratory Intern",
+    company_name: "St. Cloud State University",
+    icon: scsu,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "May 2023 - August 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Enhanced rendering speeds by 20% through 3D model optimization for Unity3D-based VR simulations.",
+      "Applied Blender to adjust UV mapping and improve visual fidelity and realism in AR/VR models.",
+      "Contributed to the creation of immersive user interfaces by embedding interactive elements into simulations.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Research Assistant, Preservation of Endangered Language",
+    company_name: "St. Cloud State University",
+    icon: scsu,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Sept 2022 - May 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built a Text-to-Speech synthesis system to help revitalize Betine, an endangered language from Côte d'Ivoire",
+      "Applied audio processing and machine learning models to improve synthesized voice clarity and realism",
+      "Streamlined PSOLA analysis to merge different WAV files, improving playback and engagement.",
     ],
   },
 ];
@@ -198,16 +200,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "AI Resume Grader",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Use AI to help job seekers improve their resumes and increase their chances of landing interviews.",
     tags: [
       {
-        name: "react",
+        name: "TypeScript",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "GoogleStudio",
         color: "green-text-gradient",
       },
       {
@@ -215,50 +217,50 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: resai,  //carrent
+    source_code_link: "https://github.com/pi8878/ai-resume-architect",
   },
   {
-    name: "Job IT",
+    name: "Job Track AI",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to track of job applications and manage every stage of the job application from application to interview to offer. (link to website) no code ",
     tags: [
       {
-        name: "react",
+        name: "TypeScript",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "GeminiAI api",
         color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
       },
       {
         name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: trackai, //jobit
+    source_code_link: "https://jobtrack-ai.vercel.app/",
+  },
+  {
+    name: "Subscription API",
+    description:
+      "A production ready RESTful API for managing user subscriptions with automated renewal reminders, rate limiting, and  secure authenticatioin. Upstash and QStash Workflows, Arcjet, and Nodemailer.",
+    tags: [
+      {
+        name: "Nodejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: presence, //tripguide
+    source_code_link: "https://github.com/pi8878/subscription_api",
   },
 ];
 
